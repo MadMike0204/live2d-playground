@@ -1,0 +1,9 @@
+# Wails executable and installer output (keep build configuration/assets)
+/build/bin/
+
+# Frontend dependencies and generated bundles
+node_modules/
+/frontend/dist/
+
+# Wails frontend dependency fingerprint
+/frontend/package.json.md5
