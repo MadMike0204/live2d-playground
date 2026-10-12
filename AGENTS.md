@@ -1,6 +1,7 @@
 # 项目约定
 
 - 应用目录是 first-encounter/，Wails 命令在该目录执行。
+- 目标平台固定为 Windows 桌面端，不开发手机端布局；界面适配桌面窗口缩放。
 - 通过 ExAPI 控制 Live2DViewerEX，渲染由外部应用负责。
 - 核心业务优先用 TypeScript；Go 保持为 Wails 外壳，遇到明确原生能力需求再扩展。
 - 不把连接、协议解析与重连逻辑堆进 Vue 展示组件。
